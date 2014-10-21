@@ -25,5 +25,4 @@ def currencies_and_symbols():
       'symbol': symbol
     })
 
-  import json
-  return json.dumps(alphabetical_currencies)
+  return alphabetical_currencies
