@@ -1,9 +1,9 @@
 OUTPUT_PRE_TEXT = 'NSDictionary *currencyMap = @{\n'
 CURRENCY_ITEM_FORMAT = '    @"%s": @{\n\
-    @"symbol": @"%s",\n\
-    @"name": @"%s",\n\
-    @"abbrev": @"%s"\n\
-}'
+        @"symbol": @"%s",\n\
+        @"name": @"%s",\n\
+        @"abbrev": @"%s"\n\
+    }'
 ITEM_SEPARATOR = ',\n'
 OUTPUT_POST_TEXT = '};'
 
